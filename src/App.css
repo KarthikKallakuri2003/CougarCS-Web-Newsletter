@@ -1,0 +1,80 @@
+main {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.left-panel{
+  background-color: red;
+  padding-block: 100px;
+  color: white;
+}
+
+.panel-content{
+    padding: 0px 150px 0px 150px;
+}
+
+#News_desc {
+  /* margin-left: 50px; */
+  color:black
+  
+}
+
+#signUP {
+  background-color: rgb(225, 172, 172);
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left:500px;
+
+}
+
+
+.signup{
+  width: 500px;
+  height: 500px;
+  padding: 25px 100px 50px 100px
+}
+
+label{
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.content{
+  height: calc(100% - 150px);
+}
+
+.input-field{
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.image {
+  background-image: url('logo.jpg');
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+}
+
+.navbar {
+  padding: 20px 50px 20px 50px;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: 100px;
+}
+
+#submit-btn{
+  margin-top: 30px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+}
