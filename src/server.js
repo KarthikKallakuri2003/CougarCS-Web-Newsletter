@@ -28,7 +28,7 @@ app.post('/Recivers', async (req, res) => {
     const { name, email } = req.body;
   
       const receiver = await Receiver.create({ name, email });
-      res.json(Receiver);
+      res.json(receiver);
    
   });
 const port = 8000;
